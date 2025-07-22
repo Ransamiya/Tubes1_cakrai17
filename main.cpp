@@ -1,9 +1,11 @@
-#include "FSM.hpp"
+#include "fsm.hpp"
+
+using namespace std;
 
 int main() {
-    FSM berbicara;
-    berbicara.dapetkata();
-    berbicara.ngomong();
 
+    FSM robotFSM(2000);
+    robotFSM.start();
+    
     return 0;
 }
