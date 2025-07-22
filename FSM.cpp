@@ -8,5 +8,5 @@ void FSM::dapetkata(){
   cin >> kata;
 }
 void FSM::ngomong(){
-  cout << "saya ngomong" << kata << "ke kamu\n";
+  cout << "saya ngomong " << kata << " ke kamu\n";
 }
