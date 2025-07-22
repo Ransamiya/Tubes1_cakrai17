@@ -3,10 +3,9 @@
 #include <string>
 
 using namespace std;
-void FSM::dapetkata(){
-  cout << "masukan 1 kata!\n";
-  cin >> kata;
+FSM::FSM(uint32_t delay){
+  moveCount=delay; //pake properti yang tidka digunakan
 }
-void FSM::ngomong(){
-  cout << "saya ngomong " << kata << " ke kamu\n";
+void FSM::start(){
+  cout << moveCount << "kalo ditambah 10, jadi " << moveCount + 10 << "\n";
 }
